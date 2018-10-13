@@ -1,0 +1,85 @@
+.Heading{
+    text-align: center;
+    padding-top: 8%;
+}
+
+#Head> h2{
+ 
+    color: white;
+    font-size: 45px;
+    padding-bottom: 15px;
+    display: none;
+}
+
+.Forms{
+    display: inline-flex;
+    min-height: 450px;
+}
+
+#SignUp{
+    padding-right: 40px;
+    padding-left: 40px
+    min-height:  450px !important;
+    min-width: 400px;
+    background-color: #f7f7f7;
+    padding-right: 40px;
+    padding-left: 40px
+    
+}
+
+#SignIn{
+    background-color: white;
+    min-height: 400px !important;
+    min-width: 400px;
+    padding-right: 40px;
+    padding-left: 40px
+}
+
+#SignUp>h3{
+    font-size: 30px;
+    margin-top: 80px;
+    color: orangered;
+}
+
+#SignIn>h3{
+    font-size: 30px;
+    background-color: white;
+    margin-top: 100px;
+}
+
+
+input[type="text"], input[type="password"] {
+padding: 10px;
+    background-color: white !important;
+    width : 200px;
+    margin-left: 10px;
+}
+
+input[type="submit"]{
+    font-size: 16px;
+    padding: 10px;
+    width: 100px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+}
+.contact-form {
+
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.contact-form .input {
+    margin-bottom: 20px;
+}
+
+
+.contact-form .input:nth-child(1),
+.contact-form .input:nth-child(2) {
+    width: calc(50% - 10px);
+}
+
+.contact-form .input:nth-child(2) {
+    margin-left: 15px;
+}
